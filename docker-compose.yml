@@ -1,0 +1,11 @@
+services:
+  arc-recovery-api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - MODEL_BUNDLE_PATH=/app/artifacts/model_bundle.joblib
+      - MODEL_VERSION=v1
+    volumes:
+      - ./artifacts:/app/artifacts:ro   # swap in a new bundle without rebuilding the image
+    restart: unless-stopped

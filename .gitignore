@@ -1,0 +1,91 @@
+# ──────────────────────────────────────────────
+# Model & binary artifacts  (DO NOT commit)
+# ──────────────────────────────────────────────
+# Treelite compiled models
+*.dylib
+*.lib
+
+# ──────────────────────────────────────────────
+# Data files  (keep schema/sample CSVs if desired — comment out to allow)
+# ──────────────────────────────────────────────
+data/
+*.csv
+*.parquet
+*.feather
+*.arrow
+
+# ──────────────────────────────────────────────
+# Python
+# ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy / pyright
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyright/
+
+# ──────────────────────────────────────────────
+# Jupyter
+# ──────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ──────────────────────────────────────────────
+# Docker
+# ──────────────────────────────────────────────
+# Keep Dockerfile & docker-compose.yml — do NOT ignore them
+
+# ──────────────────────────────────────────────
+# Environment / secrets
+# ──────────────────────────────────────────────
+.env
+.env.*
+*.env
+secrets/
+*.pem
+*.key
+
+# ──────────────────────────────────────────────
+# OS & editor
+# ──────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+.vscode/
+.idea/
+*.iml
+
+# ──────────────────────────────────────────────
+# Logs & temp
+# ──────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+logs/
+tmp/

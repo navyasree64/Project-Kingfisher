@@ -1,0 +1,16 @@
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.1
+lightgbm==4.5.0
+joblib==1.4.2
+fastapi==0.112.0
+uvicorn[standard]==0.30.5
+pydantic==2.8.2
+
+# mobile / edge export (only needed on the machine doing the export, not in the API image)
+treelite==4.3.0
+onnx==1.16.2
+onnxmltools==1.13.0
+skl2onnx==1.17.0
+onnxruntime==1.19.0
+m2cgen==0.10.0
