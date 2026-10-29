@@ -1,6 +1,6 @@
 # Project Kingfisher: ARC Recovery Rate Engine
 
-Production-grade machine learning system for predicting recovery rates on defaulted and distressed retail credit portfolios. Designed for Asset Reconstruction Companies (ARCs), debt buyers, and special situations desks to estimate expected liquidation proceeds with zero data leakage, strict schema gating, and high-throughput inference across cloud, containerized, and mobile edge environments.
+End-to-end machine learning service & deployment pipeline for predicting recovery rates on defaulted and distressed retail credit portfolios. Designed for Asset Reconstruction Companies (ARCs), debt buyers, and special situations desks to estimate expected liquidation proceeds with zero data leakage, strict schema gating, and high-throughput inference across cloud, containerized, and mobile edge environments.
 
 ---
 
